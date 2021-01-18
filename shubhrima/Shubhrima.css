@@ -100,7 +100,6 @@ li .fab{
 /*text*/
 .about_me{
   float: left;
-  background-color: #fceef5;
 }
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
@@ -118,7 +117,7 @@ p {
 
 /* Animation */
 #p1 {
-  color:#98acf8;
+  color:black;
   animation: animated-text 4s linear 1s 1 normal both,
              animated-cursor 600ms linear infinite;
 }
@@ -134,7 +133,7 @@ p {
 
 
 #p2 {
-  color:#b088f9;
+  color:blue;
   animation: animated-text_2 4s linear 5s 1 normal both,
              animated-cursor_2 600ms linear infinite;
 }
@@ -151,7 +150,7 @@ p {
 
 
 #p3 {
-  color:#9088d4;
+  color:black;
   animation: animated-text_3 4s linear 8s 1 normal both,
              animated-cursor_3 600ms linear infinite;
 }
