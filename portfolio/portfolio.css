@@ -1,0 +1,159 @@
+#clr{
+  font-style: italic;
+  font-size: 150%;
+  padding:0 2rem;
+  color: black;
+}
+
+h2{
+	text-align: center;
+	color: black;
+}
+/*about*/
+.about img{
+	margin: 4% 44% 2% 44%;
+	height: 200px;
+	width: 200px;
+    border-radius: 100%;
+    vertical-align: middle;
+    border-color: black;
+    border-style: solid;
+}
+.about img:hover{
+	border-color: #e6e6e6;
+	border-width: 35px;
+}
+
+.wordCarousel {
+    font-size: 25px;
+    font-weight: 100;
+}
+    
+.wordCarousel  div {
+        overflow: hidden;
+        position: relative;
+        float: right;
+        height: 65px;
+        padding-top: 5px;
+        margin-top: -10px;
+    }
+.wordCarousel  div        li {
+            font-family: Serif;
+            color: black;
+            font-weight: 700;
+            padding: 0 10px;
+            height: 45px;
+            margin-bottom: 45px;
+            display: block;
+        }
+
+
+.flip4 { animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+
+@keyframes flip4 {
+    0% { margin-top: -360px; }
+    5% { margin-top: -270px; }
+    25% { margin-top: -270px; }
+    30% { margin-top: -180px; }
+    50% { margin-top: -180px; }
+    55% { margin-top: -90px; }
+    75% { margin-top: -90px; }
+    80% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+
+/*navigation*/
+.navbar-toggler{
+  background-color: #f2f4f5;
+  border-style: none;
+}
+.navbar-toggler:active{
+  background-color: #f2f4f5;
+  border-style: none;
+}
+
+/*skills*/
+
+
+
+/*contact*/
+.contact a{
+	margin-left: 47%;
+}
+main li:hover{
+  font-weight: bold;
+}
+.btn.btn-outline-info{
+	margin-bottom: 2%;
+}
+
+
+
+
+/*footer*/
+footer{
+	background-color: #f1f1f1;
+}
+
+.attribute{
+  	text-align: center;
+  } 
+.social-accunts{
+	text-align: center;
+}
+
+ ul:first-child li{
+  list-style-type: none;
+  display: inline-grid;
+  margin-right: 2%;
+}
+li .fab{
+  padding: 1%;
+  padding-left: 5%;
+}
+
+.fab,.fa{
+  width: 2em;
+  height: 2em;
+  text-align: center;
+}
+.fa-github{
+  color: black;
+}
+
+.fa-github:hover
+{
+  background-color: black;
+  color:white;
+  border-radius: 100%;
+}
+
+.fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+  border-radius: 100%;
+}
+
+.fa-linkedin-in:hover{
+  background: #007bb5;
+  color: white;
+  border-radius: 100%;
+}
+.fa-envelope:hover{
+  background: #bbbbbb;
+  color: black;
+  border-radius: 100%;
+}
+.fa-instagram{
+  color:#9d0191;
+}
+
+.fa-instagram:hover{
+  background: #fd8c04;
+  color: white;
+  border-radius: 100%;
+  }
+
