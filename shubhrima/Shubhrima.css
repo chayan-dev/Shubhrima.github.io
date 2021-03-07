@@ -36,11 +36,10 @@ main li:hover{
   
 }
 img{
-  height: 33%;
+    height: 33%;
     border-radius: 100%;
     vertical-align: middle;
     margin: 2%;
-    cursor: cell;
     border-color: black;
     border-style: solid;
 }
@@ -100,9 +99,6 @@ li .fab{
 /*text*/
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-body{
-  padding-left:  40px; 
-}
 
 p {
   border-right: solid 5px rgba(255,255,255,.75);
@@ -120,7 +116,7 @@ p {
 }
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 1200px;}
+  to{width: 75%;}
 }
 
 @keyframes animated-cursor{
@@ -136,7 +132,7 @@ p {
 }
 @keyframes animated-text_2{
   from{width: 0;}
-  to{width: 1200px;}
+  to{width: 75%;}
 }
 
 @keyframes animated-cursor_2{
@@ -153,7 +149,7 @@ p {
 }
 @keyframes animated-text_3{
   from{width: 0;}
-  to{width: 1200px;}
+  to{width: 75%;}
 }
 
 @keyframes animated-cursor_3{
