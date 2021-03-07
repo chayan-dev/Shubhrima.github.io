@@ -116,7 +116,7 @@ p {
 }
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 75%;}
+  to{width: 95%;}
 }
 
 @keyframes animated-cursor{
@@ -132,7 +132,7 @@ p {
 }
 @keyframes animated-text_2{
   from{width: 0;}
-  to{width: 75%;}
+  to{width: 95%;}
 }
 
 @keyframes animated-cursor_2{
@@ -149,7 +149,7 @@ p {
 }
 @keyframes animated-text_3{
   from{width: 0;}
-  to{width: 75%;}
+  to{width: 95%;}
 }
 
 @keyframes animated-cursor_3{
