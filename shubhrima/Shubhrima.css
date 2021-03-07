@@ -10,7 +10,7 @@ body{
   font-family: cursive;
 }
 h3 #name{
-  color: blue;
+  color: black;
   font-size: 100%;
   text-align: left;
   font-family: 'Architects Daughter', cursive;
@@ -98,9 +98,6 @@ li .fab{
 
 
 /*text*/
-.about_me{
-  float: left;
-}
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 body{
@@ -133,7 +130,7 @@ p {
 
 
 #p2 {
-  color:blue;
+  color:black;
   animation: animated-text_2 4s linear 5s 1 normal both,
              animated-cursor_2 600ms linear infinite;
 }
