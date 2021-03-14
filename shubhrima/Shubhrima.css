@@ -9,15 +9,7 @@ body{
   background: white;
   font-family: cursive;
 }
-h3 #name{
-  color: black;
-  font-size: 100%;
-  text-align: left;
-  font-family: 'Architects Daughter', cursive;
-  padding: 5%;
-  text-decoration: none;
-  font-weight: bold;
-}
+
 header a:hover{
   text-decoration: none;
 }
@@ -27,7 +19,10 @@ header a:hover{
   padding:0 2rem;
   color: black;
 }
-
+.toggle{
+  background-color: white;
+  border-style: none;
+}
 .navbar-toggler{
   background-color: #bce6eb;
 }
@@ -120,7 +115,7 @@ p {
 }
 
 @keyframes animated-cursor{
-  from{border-right-color: rgba(255,255,255,.75);}
+  from{border-right-color: rgba(0,255,255,.75);}
   to{border-right-color: transparent;}
 }
 
@@ -155,4 +150,78 @@ p {
 @keyframes animated-cursor_3{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+
+/*dark mode*/
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode #p1 {
+  color:white;
+}
+
+@keyframes animated-cursor{
+  from{border-right-color: transparent;}
+  to{border-right-color: transparent;}
+}
+
+
+.dark-mode #p2 {
+  color:white;
+  animation: animated-text_2 4s linear 5s 1 normal both,
+             animated-cursor_2 600ms linear infinite;
+}
+@keyframes animated-text_2{
+  from{width: 0;}
+  to{width: 95%;}
+}
+
+@keyframes animated-cursor_2{
+  from{border-right-color: transparent;}
+  to{border-right-color: transparent;}
+}
+
+
+
+.dark-mode #p3 {
+  color:white;
+  animation: animated-text_3 4s linear 8s 1 normal both,
+             animated-cursor_3 600ms linear infinite;
+}
+
+@keyframes animated-text_3{
+  from{width: 0;}
+  to{width: 95%;}
+}
+@keyframes animated-cursor_3{
+  from{border-right-color: transparent;}
+  to{border-right-color: transparent;}
+}
+
+.dark-mode .toggle{
+  background-color: black;
+  border-style: none;
+}
+.dark-mode main li:hover{
+  font-weight: bold;
+}
+
+.dark-mode .fa-github{
+  color: white;
+}
+
+.dark-mode .fa-github:hover {
+  background: #bbbbbb;
+  color: white;
+  border-radius: 100%;
+}
+
+.dark-mode  #clr{
+  color: white;
+}
+.dark-mode .fa-star-half-alt
+{
+  color:white;
 }

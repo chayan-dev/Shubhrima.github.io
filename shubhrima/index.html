@@ -20,7 +20,7 @@
 	<script src="https://kit.fontawesome.com/58e0adaea0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-		<br><h3><a id="name" href="#">Shubhrima</a></h3>
+		<button class="toggle" onclick="myFunction()"><i class="fas fa-star-half-alt fa-2x" ></i></button>
 	<main>
 		  <div align="right">
 		    <ul class="navbar-nav ml-auto" style="display: inline;">
@@ -54,5 +54,11 @@
 			</div>
 		</div>
 	</main>
+	<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
 </html>
