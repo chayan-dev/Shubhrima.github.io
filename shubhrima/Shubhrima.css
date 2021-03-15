@@ -22,6 +22,7 @@ header a:hover{
 .toggle{
   background-color: white;
   border-style: none;
+  outline: none;
 }
 .navbar-toggler{
   background-color: #bce6eb;
@@ -212,16 +213,13 @@ p {
   color: white;
 }
 
-.dark-mode .fa-github:hover {
-  background: #bbbbbb;
-  color: white;
-  border-radius: 100%;
+.dark-mode .fab:hover {
+  background: black;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: blue;
 }
 
 .dark-mode  #clr{
   color: white;
-}
-.dark-mode .fa-star-half-alt
-{
-  color:white;
 }
