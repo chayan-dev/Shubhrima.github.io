@@ -91,6 +91,16 @@ li .fab{
   border-radius: 100%;
   }
 
+.fa-medium-m{
+  color:black;
+}
+
+.fa-medium-m:hover{
+  background: black;
+  color: white;
+  border-radius: 100%;
+  }
+
 
 /*text*/
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
@@ -212,12 +222,15 @@ p {
 .dark-mode .fa-github{
   color: white;
 }
+.dark-mode .fa-medium-m{
+  color:white;
+}
 
 .dark-mode .fab:hover {
   background: black;
   font-size: 1.4em;
   font-weight: bold;
-  color: blue;
+  color: white;
 }
 
 .dark-mode  #clr{
