@@ -1,0 +1,238 @@
+Shubhrima.css
+Last month
+4 Dec 2020
+
+You uploaded an item
+Style Sheet
+Shubhrima.css
+body{
+  background: white;
+  font-family: cursive;
+}
+
+header a:hover{
+  text-decoration: none;
+}
+#clr{
+  font-style: italic;
+  font-size: 150%;
+  padding:0 2rem;
+  color: black;
+}
+.toggle{
+  background-color: white;
+  border-style: none;
+  outline: none;
+}
+.navbar-toggler{
+  background-color: #bce6eb;
+}
+main li:hover{
+  font-weight: bold;
+  
+}
+img{
+    height: 33%;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin: 2%;
+    border-color: black;
+    border-style: solid;
+}
+ ul li{
+  list-style-type: none;
+  display: inline-grid;
+  margin-right: 2%;
+}
+li .fab{
+  padding: 1%;
+  padding-left: 5%;
+}
+
+.fab,.fa{
+  width: 2em;
+  height: 2em;
+  text-align: center;
+}
+.fa-github{
+  color: black;
+}
+
+.fa-github:hover
+{
+  background-color: black;
+  color:white;
+  border-radius: 100%;
+}
+
+.fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+  border-radius: 100%;
+}
+
+.fa-linkedin-in:hover{
+  background: #007bb5;
+  color: white;
+  border-radius: 100%;
+}
+.fa-envelope:hover{
+  background: #bbbbbb;
+  color: black;
+  border-radius: 100%;
+}
+.fa-instagram{
+  color:#9d0191;
+}
+
+.fa-instagram:hover{
+  background: #fd8c04;
+  color: white;
+  border-radius: 100%;
+  }
+
+.fa-medium-m{
+  color:black;
+}
+
+.fa-medium-m:hover{
+  background: black;
+  color: white;
+  border-radius: 100%;
+  }
+
+
+/*text*/
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+p {
+  border-right: solid 5px rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+}
+
+/* Animation */
+#p1 {
+  color:black;
+  animation: animated-text 4s linear 1s 1 normal both,
+             animated-cursor 600ms linear infinite;
+}
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 95%;}
+}
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+#p2 {
+  color:black;
+  animation: animated-text_2 4s linear 5s 1 normal both,
+             animated-cursor_2 600ms linear infinite;
+}
+@keyframes animated-text_2{
+  from{width: 0;}
+  to{width: 95%;}
+}
+
+@keyframes animated-cursor_2{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+
+#p3 {
+  color:black;
+  animation: animated-text_3 4s linear 8s 1 normal both,
+             animated-cursor_3 600ms linear infinite;
+}
+@keyframes animated-text_3{
+  from{width: 0;}
+  to{width: 95%;}
+}
+
+@keyframes animated-cursor_3{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+/*dark mode*/
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode #p1 {
+  color:white;
+}
+
+@keyframes animated-cursor{
+  from{border-right-color: transparent;}
+  to{border-right-color: transparent;}
+}
+
+
+.dark-mode #p2 {
+  color:white;
+  animation: animated-text_2 4s linear 5s 1 normal both,
+             animated-cursor_2 600ms linear infinite;
+}
+@keyframes animated-text_2{
+  from{width: 0;}
+  to{width: 95%;}
+}
+
+@keyframes animated-cursor_2{
+  from{border-right-color: transparent;}
+  to{border-right-color: transparent;}
+}
+
+
+
+.dark-mode #p3 {
+  color:white;
+  animation: animated-text_3 4s linear 8s 1 normal both,
+             animated-cursor_3 600ms linear infinite;
+}
+
+@keyframes animated-text_3{
+  from{width: 0;}
+  to{width: 95%;}
+}
+@keyframes animated-cursor_3{
+  from{border-right-color: transparent;}
+  to{border-right-color: transparent;}
+}
+
+.dark-mode .toggle{
+  background-color: black;
+  border-style: none;
+}
+.dark-mode main li:hover{
+  font-weight: bold;
+}
+
+.dark-mode .fa-github{
+  color: white;
+}
+.dark-mode .fa-medium-m{
+  color:white;
+}
+
+.dark-mode .fab:hover {
+  background: black;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: white;
+}
+
+.dark-mode  #clr{
+  color: white;
+}
