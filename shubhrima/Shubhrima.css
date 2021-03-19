@@ -19,18 +19,21 @@ header a:hover{
   padding:0 2rem;
   color: black;
 }
+
+
 .toggle{
   background-color: white;
   border-style: none;
   outline: none;
 }
 .navbar-toggler{
-  background-color: #bce6eb;
+  filter: invert(100%);
 }
 main li:hover{
   font-weight: bold;
   
 }
+
 img{
     height: 33%;
     border-radius: 100%;
@@ -112,11 +115,11 @@ p {
   overflow: hidden;    
   font-family: 'Source Code Pro', monospace;  
   font-size: 28px;
+  color:black;
 }
 
 /* Animation */
 #p1 {
-  color:black;
   animation: animated-text 4s linear 1s 1 normal both,
              animated-cursor 600ms linear infinite;
 }
@@ -132,7 +135,6 @@ p {
 
 
 #p2 {
-  color:black;
   animation: animated-text_2 4s linear 5s 1 normal both,
              animated-cursor_2 600ms linear infinite;
 }
@@ -149,7 +151,6 @@ p {
 
 
 #p3 {
-  color:black;
   animation: animated-text_3 4s linear 8s 1 normal both,
              animated-cursor_3 600ms linear infinite;
 }
@@ -214,6 +215,7 @@ p {
 .dark-mode .toggle{
   background-color: black;
   border-style: none;
+  color: white;
 }
 .dark-mode main li:hover{
   font-weight: bold;
@@ -235,4 +237,7 @@ p {
 
 .dark-mode  #clr{
   color: white;
+}
+.dark-mode .navbar-toggler{
+  filter: none;
 }
