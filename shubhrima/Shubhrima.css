@@ -56,6 +56,7 @@ li .fab{
   width: 2em;
   height: 2em;
   text-align: center;
+
 }
 .fa-github{
   color: black;
@@ -66,23 +67,28 @@ li .fab{
   background-color: black;
   color:white;
   border-radius: 100%;
+  line-height: 28px;
 }
 
 .fa-twitter:hover {
   background: #55ACEE;
   color: white;
   border-radius: 100%;
+  line-height: 28px;
 }
 
 .fa-linkedin-in:hover{
   background: #007bb5;
   color: white;
   border-radius: 100%;
+  line-height: 28px;
 }
 .fa-envelope:hover{
   background: #bbbbbb;
   color: black;
   border-radius: 100%;
+  line-height: 28px;
+
 }
 .fa-instagram{
   color:#9d0191;
@@ -92,6 +98,7 @@ li .fab{
   background: #fd8c04;
   color: white;
   border-radius: 100%;
+  line-height: 28px;
   }
 
 .fa-medium-m{
@@ -102,6 +109,7 @@ li .fab{
   background: black;
   color: white;
   border-radius: 100%;
+  line-height: 28px;
   }
 
 
