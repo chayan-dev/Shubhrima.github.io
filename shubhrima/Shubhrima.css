@@ -8,6 +8,7 @@ Shubhrima.css
 body{
   background: white;
   font-family: cursive;
+  vertical-align: middle;
 }
 
 header a:hover{
