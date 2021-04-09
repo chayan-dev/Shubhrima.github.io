@@ -43,7 +43,6 @@ h2{
 /*skills*/
 
 
-
 /*contact*/
 .contact a{
 	margin-left: 47%;
@@ -87,30 +86,35 @@ li .fab{
 }
 .fa-github{
   color: black;
+
 }
 
 .fa-github:hover
 {
   background-color: black;
   color:white;
-  border-radius: 100%;
+  border-radius: 100%;  
+  line-height: 28px;
 }
 
 .fa-twitter:hover {
   background: #55ACEE;
   color: white;
   border-radius: 100%;
+  line-height: 28px;
 }
 
 .fa-linkedin-in:hover{
   background: #007bb5;
   color: white;
   border-radius: 100%;
+  line-height: 28px;
 }
 .fa-envelope:hover{
   background: #bbbbbb;
   color: black;
   border-radius: 100%;
+  line-height: 28px;
 }
 .fa-instagram{
   color:#9d0191;
@@ -120,5 +124,6 @@ li .fab{
   background: #fd8c04;
   color: white;
   border-radius: 100%;
+  line-height: 28px;
   }
 
