@@ -7,7 +7,6 @@ Style Sheet
 Shubhrima.css
 body{
   background: white;
-  font-family: cursive;
   vertical-align: middle;
 }
 
@@ -15,7 +14,6 @@ header a:hover{
   text-decoration: none;
 }
 #clr{
-  font-style: italic;
   font-size: 180%;
   padding:0 2rem;
   color: black;
@@ -129,7 +127,7 @@ p {
   border-right: solid 5px rgba(255,255,255,.75);
   white-space: nowrap;
   overflow: hidden;    
-  font-family: 'Source Code Pro', monospace;  
+  font-family: 'Source Code Pro', sans-serif;  
   font-size: 28px;
   color:black;
 }
