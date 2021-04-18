@@ -5,9 +5,14 @@ body{
   height:100vh;   
    
 }
+/*navigation*/
+.navbar-toggler{
+  background-color: #440a67;
+  border-style: none;
+  filter: 0%;
+}
 
 .circles{
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -158,16 +163,6 @@ h2{
   color: white;
 }
 
-
-/*navigation*/
-.navbar-toggler{
-  background-color: #e3f6f5;
-  border-style: none;
-}
-.navbar-toggler:active{
-  background-color: #e3f6f5;
-  border-style: none;
-}
 
 /*skills*/
 
