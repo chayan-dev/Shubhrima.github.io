@@ -185,7 +185,8 @@ main li:hover{
 /*footer*/
 
 .attribute{
-  	text-align: center;
+    text-align: center;
+    font-family:sacramento,cursive;
   } 
 .social-accunts{
 	text-align: center;
