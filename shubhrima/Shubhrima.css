@@ -126,8 +126,9 @@ li .fab{
 p {
   border-right: solid 5px rgba(255,255,255,.75);
   white-space: nowrap;
-  overflow: hidden;    
-  font-family: 'Source Code Pro', sans-serif;  
+  overflow: hidden;     
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   font-size: 28px;
   color:black;
 }
