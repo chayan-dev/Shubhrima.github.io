@@ -1,3 +1,4 @@
+@import "compass/css3";
 body{
   background-color: #272343;
   color: white;
@@ -5,6 +6,7 @@ body{
   height:100vh;   
    
 }
+
 /*navigation*/
 .navbar-toggler{
   background-color: #440a67;
@@ -164,6 +166,7 @@ h2{
 }
 
 
+
 /*skills*/
 
 
@@ -179,14 +182,124 @@ main li:hover{
 	margin-bottom: 2%;
 }
 
+/*experience*/
 
+
+h1, h2, h4, h5, h6 {
+  font-family: 'Cabin', 'sans-serif';
+}
+.initial {
+  font-size: 3em;
+  color: white;
+  font-weight: 700;
+}
+.logo {
+  position: relative;
+  top: 20%;
+  height: 100px;
+  width: 250px;
+  margin: 0 auto 0;
+  background: #bae8e8;
+  text-align: center;
+  animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+ }
+ .logo a{
+      padding: 15px;
+ }
+.logo h5 {
+    margin-top: 2px;
+    line-height: 100px;
+    color: #272343;
+    font-size : 1em;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+.name {
+  margin: 2em;
+  font-size: 19px;
+  font-family: 'Cabin', 'sans-serif';
+  font-weight: 700;
+  color: black;
+  letter-spacing: 3px;
+}
+.h3 {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px; 
+}
+.about2 {
+  margin: 0 auto;
+  width: 200px;
+  line-height: 16px;
+}
+.contact-info {
+  line-height: 160px;
+}
+/* Rules for the cards  */
+/* Credit: http://davidwalsh.name/css-flip */
+/* entire container, keeps perspective */
+.wrapper, .card-front, .card-back {
+  width: 300px;
+  height: 250px;
+}
+.wrapper {
+  margin: 1em auto;
+  perspective: 1000; 
+}
+/* Flip the pane when hovered */
+.wrapper:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+/* Flip speed and styling. */
+.flipper {
+  position: relative;
+  transition: 0.8s;
+  transform-style: preserve-3d;
+}
+/* Hide back of pane during swap */
+.card-front, .card-back {
+  position: absolute;
+  backface-visibility: hidden;
+  text-align: center;
+  box-sizing: border-box;
+}
+/* Front pane, placed above back */
+.card-front {
+  background: #272343;
+}
+/* back, initially hidden pane */
+.card-back {
+  transform: rotateY(180deg);
+  background: #bae8e8;
+  color: black;
+}
+@-webkit-keyframes bounce {
+  0%   { margin-top: 15px; margin-bottom: 10px; }
+  50%  { margin-top: 22px; margin-bottom: 3px; }
+  100% { margin-top: 15px; margin-bottom: 10px; }
+}
+@keyframes bounce {
+  0%   { margin-top: 15px; margin-bottom: 10px; }
+  50%  { margin-top: 22px; margin-bottom: 3px; }
+  100% { margin-top: 15px; margin-bottom: 10px; }
+}
+@-webkit-keyframes shadow {
+  0%   { padding: 1px; opacity: 0.10; }
+  50%  { padding: 3px; opacity: 0.18; }
+  100% { padding: 1px; opacity: 0.10; }
+}
+@keyframes shadow {
+  0%   { padding: 1px; opacity: 0.10; }
+  50%  { padding: 3px; opacity: 0.18; }
+  100% { padding: 1px; opacity: 0.10; }
+}
 
 
 /*footer*/
 
 .attribute{
-    text-align: center;
-    font-family:sacramento,cursive;
+  	text-align: center;
   } 
 .social-accunts{
 	text-align: center;
