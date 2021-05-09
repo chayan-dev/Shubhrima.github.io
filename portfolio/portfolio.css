@@ -295,7 +295,6 @@ main li:hover{
 
 .cards:hover .para {
   color: var(--text-color-hover);
-  font-size: 1.5rem;
   font-weight: bolder;
 }
 
