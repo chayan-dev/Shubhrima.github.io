@@ -2,16 +2,45 @@
 body{
   background-color: #272343;
   color: white;
-  width: 100%;
   height:100vh; 
    
 }
+#namaste{
+  font-family: Montserrat; 
+  color: #ffc288;
+  font-size: 150%;
+}
+
 
 /*navigation*/
+nav{
+  padding-top: .5em;
+  padding-bottom: .5em;
+  box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+}
 .navbar-toggler{
   background-color: #440a67;
   border-style: none;
   filter: 0%;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0{
+  margin-top: 5px;
+}
+
+.main-nav a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+
+.main-nav a {
+  color: #34495e;
+  font-size: .99em;
+  font-family: Montserrat;
+  text-transform: uppercase;
 }
 
 .circles{
@@ -141,11 +170,12 @@ h2{
   letter-spacing: 45%;
 }
 /*about*/
+
 .about img{
-	margin: 4% 44% 2% 44%;
+	margin: auto 44% 2% 44%;
 	height: 200px;
 	width: 200px;
-  border-radius: 100%;
+  border-radius: 50%;
   vertical-align: middle;
   border-color: white;
   border-style: solid;
@@ -153,9 +183,12 @@ h2{
 
 .about p{
   font-family: 'Quicksand',sans-serif;
-  font-weight: 100;
+  font-weight: bolder;
   letter-spacing: 1.5px;
+  margin: 0 15%;
 }
+
+/*project*/
 
 .project_name{
   text-decoration: none;
@@ -167,7 +200,7 @@ h2{
   font-size: 150%;
 }
 .project_name:hover{
-  color: white;
+  font-weight:bolder;
 }
 
 .projects p{
@@ -190,6 +223,146 @@ main li:hover{
 	margin-bottom: 2%;
 }
 
+/*education*/
+
+.education {
+  background: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3% 0%;
+  font-family: "Open Sans";
+}
+
+.school {
+  --bg-color: #DCE9FF;
+  --bg-color-light: #f1f7ff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(220, 233, 255, 0.48);
+}
+
+.higher_secondary {
+  --bg-color: #B8F9D3;
+  --bg-color-light: #e2fced;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(184, 249, 211, 0.48);
+}
+
+.college {
+  --bg-color: #CEB2FC;
+  --bg-color-light: #F0E7FF;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(206, 178, 252, 0.48);
+}
+
+
+.cards {
+  width: 220px;
+  height: 321px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  margin: 2% auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.75);
+}
+
+.cards:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  
+}
+
+.cards:hover .overlay_education {
+  transform: scale(4) translateZ(0);
+}
+
+.cards:hover .circle_education {
+  border-color: var(--bg-color-light);
+  background: var(--bg-color);
+}
+
+.cards:hover .circle_education:after {
+  background: var(--bg-color-light);
+}
+
+.cards:hover .para {
+  color: var(--text-color-hover);
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.cards:active {
+  transform: scale(1) translateZ(0);
+  box-shadow: 0 15px 24px rgba(0,0,0,0.11),
+    0 15px 24px var(--box-shadow-color);
+}
+
+.cards .para {
+  font-size: 15px;
+  color: #4C5656;
+  margin-top: 2px;
+  z-index: 1000;
+  transition: color 0.3s ease-out;  
+  
+}
+.para_about{
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: -5% 4%;
+}
+
+.circle_education {
+  width: 131px;
+  height: 131px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-out;
+}
+
+.circle_education:after {
+  content: "";
+  width: 118px;
+  height: 118px;
+  display: block;
+  position: absolute;
+  background: var(--bg-color);
+  border-radius: 50%;
+  transition: opacity 0.3s ease-out;
+}
+
+.circle_education i {
+  z-index: 10000;
+  transform: translateZ(0);
+}
+
+.overlay_education {
+  width: 118px;
+  position: absolute; 
+  height: 118px;
+  border-radius: 50%;
+  background: var(--bg-color);
+  top: 70px;
+  left: 50px;
+  z-index: 0;
+  transition: transform 0.3s ease-out;
+}
+
 /*experience*/
 
 
@@ -203,11 +376,7 @@ h1, h4, h5, h6 {
 }
 .logo {
   position: relative;
-  top: 20%;
-  height: 100px;
-  width: 250px;
-  margin: 0 auto 0;
-  background: #bae8e8;
+  margin-top: 20%;
   text-align: center;
   animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
@@ -215,14 +384,20 @@ h1, h4, h5, h6 {
  .logo a{
       padding: 15px;
  }
-.logo h5 {
-    margin-top: 2px;
-    line-height: 100px;
+.logo .initial {
+    margin: 20% auto;
+    line-height: 25px;
     color: #272343;
-    font-size : 1em;
+    font-size : 1.25em;
+    font-family: 'Montserrat';
     text-transform: uppercase;
     overflow: hidden;
   }
+
+.exp{
+  color: black;
+  font-size: 48px; 
+}
 .name {
   margin: 2em;
   font-size: 19px;
@@ -250,6 +425,7 @@ h1, h4, h5, h6 {
 .wrapper, .card-front, .card-back {
   width: 300px;
   height: 250px;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.75);
 }
 .wrapper {
   margin: 1em auto;
@@ -274,7 +450,7 @@ h1, h4, h5, h6 {
 }
 /* Front pane, placed above back */
 .card-front {
-  background: #272343;
+  background: #bae8e8;
 }
 /* back, initially hidden pane */
 .card-back {
@@ -303,6 +479,52 @@ h1, h4, h5, h6 {
   100% { padding: 1px; opacity: 0.10; }
 }
 
+/*project*/
+
+.tab {
+  margin: 0 15%;
+  overflow: hidden;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {  
+  background-color: #272343;
+  color: white;
+  float: left;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 14px 25px;
+  transition: 0.3s;
+}
+
+
+
+/* Create an active/current tablink class */
+.tab button.active {
+  color: white;
+  background-color: black;
+}
+
+/* Style the tab content */
+.tabcontent {
+  margin: 0 15%;
+  display: none;
+  padding: 6px 12px;
+}
+
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+
+
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
 
 /*footer*/
 
@@ -370,4 +592,9 @@ li .fab{
   border-radius: 100%;
   line-height: 28px;
   }
-
+footer{
+  padding-top: .5em;
+  padding-bottom: .5em;
+  box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+}
