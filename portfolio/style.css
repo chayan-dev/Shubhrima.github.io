@@ -215,6 +215,19 @@ p {
   cursor: pointer;
   padding: 14px 25px;
   transition: 0.3s;
+  margin-bottom: 5px;
+
+}
+
+@media (max-width: 992px) {
+  .tab button{
+    padding: 7px 12px;
+  }
+}
+
+.tab button.last-item{
+  margin-bottom: 0;
+
 }
 .tab button.hover {
   font-weight: bolder;
