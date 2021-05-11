@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <title>Shubhrima</title>  
+  <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"></script>
+   
+   <!--font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Flamenco&family=Belgrano&family=Sacrament&family=Pangolin&family=Lato:wght@100&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <!--css-->
+  <link href="style.css" rel="stylesheet">
+ <!--icon-->
+    <link rel="icon" type="image/png" href=" ">
+     <!--js-->
+  <script src="index.js"></script>
+  <!--font awesome -->
+    <script src="https://kit.fontawesome.com/58e0adaea0.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+
+  <!-- Add your content of header -->
+  <div class="background-color-layer"></div>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-nav">
+          <li class="nav-item">
+            <a class="nav-link" id="nav-text" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-text" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-text" href="#education_class">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-text" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-text" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="intro">
+    <header class="white-text-container section-container">
+      <div class="text-center">
+        <h2>Namaste</h2>
+        <h1>I am Shubhrima Jana</h1>
+      </div>
+    </header>
+
+    <!-- Add your site or app content here -->
+
+    <div class="container">
+      <div class="row">
+        <div class="column col-xs-12">
+
+          <div class="card">
+            <div class="card-block">
+              <h2 id='about'>About me</h2>
+              <div class="row">
+                <div class="column col-md-4">
+                  <p><img src="assets/images/shubhrima.jpg" class="img-responsive" alt=""></p>
+                </div>
+                <div class="column col-md-8 about">
+
+                  <p>I am <strong>Shubhrima Jana</strong>, a Computer Science Undergrad.</p>
+                  <p>Pronouns: <strong>She/Her</strong></p>
+                  <p>I am pursuing B. Tech in the Government College of Engineering and Ceramic
+                    Technology. I completed my schooling from Carmel High School in the year 2019. I am enthusiastic towards learning and exploring new technology</p>
+                  <p> Tech amazes me. I am currently working on web development and flutter development projects</p>
+                  <p> I love doodling, painting and reading story books.</p>
+                  <br>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-block">
+              <h2 id='projects'>Projects</h2>
+              <div class="row">
+
+                <div class='projects'>
+                  <div class="tab">
+                    <button class="tablinks project_name" onclick="openCity(event, 'web')" id="defaultOpen">Web Development</button>
+                    <button class="tablinks project_name" onclick="openCity(event, 'app')">App Development</button>
+                    <button class="tablinks project_name" onclick="openCity(event, 'python')">Python Development</button>
+                  </div>
+                  <br>
+                  <div id="web" class="tabcontent">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col col-md-3">
+                          <div class="card">
+                            <div class="card-body">
+                              <div class="p-3">
+                                <a href="https://enigmatic-wildwood-62898.herokuapp.com/" class='project_name' target="_blank"><strong>Bucketlist</strong></a>
+                                <p></p>
+                                <p>The website helps you make your personal bucketlist, add and tick off items as per your
+                                  choice.
+                                <details>
+                                  <summary><strong>Tech Stack: </strong></summary>
+                                  <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>Bootstrap</li>
+                                    <li>JavaScript</li>
+                                    <li>Deployed on Heroku</li>
+                                    <li>Mongodb as the database</li>
+                                    <li>Node.js</li>
+                                  </ul>
+                                </details>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col  col-md-3">
+                          <div class="card">
+                            <div class="card-body project_card">
+                              <div class="p-3">
+                                <a href="https://immense-cove-79525.herokuapp.com/" class='project_name' target="_blank" ;><strong>Writerly</strong></a>
+                                <p></p>
+                                <p>A website for a content-writing company, Writerly that follows the motto, You
+                                  Think, We Pen, You Smile. The website has features like sample articles, sign in page,
+                                  payment page, and the about us section. There is a join us section, where freelance writers
+                                  interested to be a part of the team can create their Writerly account. It also allows you to
+                                  signup for newsletters.</p>
+                                <p>
+                                <details>
+                                  <summary><strong>Tech Stack: </strong></summary>
+                                  <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>Bootstrap</li>
+                                    <li>JavaScript</li>
+                                    <li>Deployed on Heroku</li>
+                                    <li>Subscribe newsletters on Mailchimp</li>
+                                    <li>Node.js</li>
+                                  </ul>
+                                </details>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="app" class="tabcontent">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col  col-md-3">
+                          <div class="card">
+                            <div class="card-body project_card">
+                              <div class="p-3">
+                                <a href="https://github.com/Shubhrima/gcect_resources_app" class='project_name' target="_blank"><strong>College
+                                    Resources</strong></a>
+                                <p></p>
+                                <p>The app is a collection of all the materials of the college syllabus.
+                                <details>
+                                  <summary><strong>Tech Stack: </strong></summary>
+                                  <ul>
+                                    <li>Dart</li>
+                                    <li>Adobe Illustrator</li>
+                                  </ul>
+                                </details>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                        </div>
+                        <div class="col">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="python" class="tabcontent">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col  col-md-3">
+                          <div class="card">
+                            <div class="card-body project_card">
+                              <div class="p-3">
+                                <a href="https://github.com/Shubhrima/Games/tree/main/Guess%20the%20Countries" class='project_name' target="_blank"><strong>Guess The Countries of the World</strong></a>
+                                <p></p>
+                                <p>The application allows players to guess the different countries on the World Map. With every
+                                  correct guess, the country name appears on the map, and the player scores a point.
+                                <details>
+                                  <summary><strong>Tech Stack: </strong></summary>
+                                  <ul>
+                                    <li>Python (Modules: Turtle, Pandas)</li>
+                                  </ul>
+                                </details>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col  col-md-3">
+                          <div class="card">
+                            <div class="card-body project_card">
+                              <div class="p-3">
+                                <a href="https://github.com/Shubhrima/Birthday-Wishing-Instagram-Bot" class='project_name' target="_blank"><strong>Birthday-Wishing-Instagram-Bot</strong></a>
+                                <p></p>
+                                <p>A birthday wishing bot that goes through the list of birthdays of family and friends, and sends an instant message to the birthday person's instagram profile.
+                                <details>
+                                  <summary><strong>Tech Stack: </strong></summary>
+                                  <ul>
+                                    <li>Python (Modules : Selenium, Pandas, datetime, time)</li>
+                                  </ul>
+                                </details>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col col-md-3">
+                          <div class="card">
+                            <div class="card-body project_card">
+                              <div class="p-3">
+                                <a href="https://github.com/Shubhrima/Rain-Mail" class='project_name' target="_blank"><strong>Rain Alert Mail Sender</strong></a>
+                                <p></p>
+                                <p>An application that checks the weather condition for the next 12 hours and sends a message to the registered mail address number as to whether one should carry a sunglass (if it is sunny) , or an umbrella (if it rains).
+                                <details>
+                                  <summary><strong>Tech Stack: </strong></summary>
+                                  <ul>
+                                    <li>Python (Modules : requests, smtp, time, datetime)</li>
+                                  </ul>
+                                </details>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-block">
+            <h2 id="education_class">Education</h2>
+            <div class="row">
+              <div class="column col-md-4">
+                <div class="school">
+                  <div class="circle_education">
+                    <i class="fas fa-book" style="font-size: 3em; color: #365580;"></i>
+                  </div>
+                  <div class='para'>
+                    <p><strong>Madhyamik - Class X</strong></p>
+                    <div class="date">2011-2017</div>
+                  </div>
+                  <p>Carmel High School</p>
+                  <div class='para_about'>Scored 91.7% in WBBSE board.</div>
+                </div>
+              </div>
+              <div class="column col-md-4">
+                <div class="higher_secondary">
+                  <div class="circle_education">
+                    <i class="fas fa-school" style="font-size: 3em; color: #65AD83;"></i>
+                  </div>
+                  <div class='para'>
+                    <p><strong> Higher Secondary - Class XII</strong></p>
+                    <div class="date">2017-2019</div>
+                  </div>
+                  <p>Carmel High School</p>
+                  <div class='para_about'>Scored 88.4% in WBCHSE board</div>
+                </div>
+              </div>
+              <div class="column col-md-4">
+                <div class="college">
+                  <div class="circle_education">
+                    <i class="fas fa-graduation-cap" style="font-size: 3em; color: #925EE6;"></i>
+                  </div>
+                  <div class='para'>
+                    <strong>
+                      <p>Bachelor of Technology (CSE)</p>
+                    </strong>
+                    <div class="date">August 2019 - May 2023</div>
+                  </div>
+                  <p>Government College of Engineering and Ceramic Technology</p>
+                  <div class='para_about'>SGPA: 9.14, 9.9, 9.78</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-block">
+            <h2 id="#experience">Experience</h2>
+            <div class="work-experience">
+              <div class="date">March 2021 - May 2021</div>
+              <h3 class="h5 work_title">Open Source Contributor - <a href="https://gssoc.girlscript.tech/" class="company" title=" ">GirlScript Summer of Code</a></h3>
+
+              <p>Contributed to a number of Open Source Projects.</p>
+            </div>
+
+            <div class="work-experience">
+              <div class="date">September 2020 - December 2020</div>
+              <h3 class="h5 work_title">Content Writer - <a href="https://content-whale.com/" title="" class="company">Content Whale</a></h3>
+
+              <p>Write blogs, website content, social media posts, and tech articles for magazines.</p>
+            </div>
+          </div>
+        </div>
+
+        <!--<div class="card">
+        <div class="card-block">
+          <h2>Skills</h2>
+          <div class="row">
+            <div class="column col-md-4">
+              <div class="language-experience">
+                <h3 class="h5">English <small>Bilingual</small></h3>
+              </div>
+            </div>
+            <div class="column col-md-4">
+              <div class="language-experience">
+                <h3 class="h5">French <small>Fluent</small></h3>
+              </div>
+            </div>
+            <div class="column col-md-4">
+              <div class="language-experience">
+                <h3 class="h5">Russian <small>Beginner</small></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+
+        <!--<div class="card">
+          <div class="card-block">
+            <h2 id="projects">Projects</h2>
+          </div>
+        </div>--->
+
+        <div class="card">
+          <div class="card-block">
+            <h2 id='contact'>Contact</h2>
+            <div class="contact">
+              <div class="row justify-content-md-center">
+                <div class="col col-lg-2">
+                </div>
+                <div class="col-md-auto">
+                  <blockquote><i>“Every mind needs friendly contact with other minds, for food of expansion and
+                      growth.”</i></blockquote>
+
+                </div>
+                <div class="col col-lg-2">
+                  <br>
+                  <strong>-Napoleon Hill</strong>
+                </div>
+              </div>
+
+              <div class="column col col-lg-2">
+                <a class="btn btn-outline-info" href="mailto:shubhrijana@gmail.com" role="button">Drop a Hi👋</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </main>
+  <footer class="footer-container white-text-container text-center">
+    <div class="container">
+      <div class="row">
+        <div class="column col-xs-12">
+          <p>
+            <a class="fa-icon fa-icon-2x twitter" href="https://twitter.com/Shubhrima2"><i class="fab fa-twitter"></i></a>
+            <a class="fa-icon fa-icon-2x github" href="https://github.com/Shubhrima"><i class="fab fa-github"></i></a>
+            <a class="fa-icon fa-icon-2x linked-in" href="https://www.linkedin.com/in/shubhrima-jana/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="fa-icon fa-icon-2x instagram" href="https://www.instagram.com/_shubhrima_/"><i class="fab fa-instagram"></i></a>
+            <a class="fa-icon fa-icon-2x mail" href="mailto:shubhrijana@gmail.com"><i class="fab fas fa-envelope"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <ul class="attribute">
+      With 💖 <a href="https://shubhrima.github.io/shubhrima/" style="text-decoration: none;font-family:'sacramento', cursive; color:black; font-weight: bold" ;> Shubhrima</a>
+    </ul>
+
+  </footer>
+  <script>
+    document.getElementById("defaultOpen").click();
+  </script>
+</body>
+</html>
