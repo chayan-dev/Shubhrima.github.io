@@ -4,13 +4,10 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+ background-color: #e1e5ea;
+ margin: 0;
 }
 
-body {
-  background-image: linear-gradient(180deg, #4DD9DB 0, #92E0E1);
-  background-repeat: repeat-x;
-}
 
 
 
@@ -51,7 +48,7 @@ body {
 
 
 .white-text-container h1,.white-text-container h2 {
-  color: #fff;
+  color: black;
 }
 .intro {
   position: relative;
@@ -92,11 +89,11 @@ nav{
 #nav-text{
   font-size: 150%;
   padding:0 2rem;
-  color: white;
+  color: black;
   font-weight: 500;
   text-decoration: none;
 }
-#nav-text:hover{;
+#nav-text:hover{
 	font-weight: bolder;
 }
 
@@ -107,7 +104,8 @@ nav{
 /*about*/
 h1 {
   font-size: 2em;
-  font-family: 'Montserrat', 'Times New Roman',
+  font-family: 'Montserrat', 'Times New Roman';
+  font-variant: small-caps;
   margin: 0.67em 0;
 }
 .about p{
@@ -134,8 +132,7 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 400;
   line-height: 1.1;
   color: #000;
-} font-size: 65%;
-
+}
 p {
   margin: 0 0 12.5px;
 }
@@ -229,12 +226,10 @@ p {
   margin-bottom: 0;
 
 }
-.tab button.hover {
-  font-weight: bolder;
-}
 .tab button.active {
   color: black;
-  background-color: #4DD9DB;
+  background-color: #C7BFB1;
+  font-weight: 500;
 }
 
 .tabcontent {
@@ -305,10 +300,10 @@ p {
   transform: translateZ(0);
 }
 
-.school, .higher_secondary {
+.college, .higher_secondary {
   margin-bottom: 40px;
 }
-.college{
+.school{
   margin-bottom: 0;
 }
 /*experience*/
@@ -323,6 +318,9 @@ p {
 .work-experience:last-of-type {
   margin-bottom: 0;
 }
+
+/*contact*/
+
 
 /*footer*/
 .footer-container {
@@ -375,4 +373,15 @@ p {
 li .fab{
   padding: 1%;
   padding-left: 5%;
+}
+
+
+.block{
+  border: none;
+  box-shadow: 1px 1px 8px 0 rgb(0 0 0 / 39%);
+}
+.big-letter{
+  font-size: 7em;
+  font-weight: 700;
+  color: lightgray;
 }
