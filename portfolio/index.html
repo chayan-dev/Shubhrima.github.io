@@ -14,7 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
             crossorigin="anonymous"></script>
-   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
    <!--font-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Flamenco&family=Belgrano&family=Sacrament&family=Pangolin&family=Lato:wght@100&family=Montserrat:wght@100&display=swap" rel="stylesheet">
@@ -64,6 +65,7 @@
     <div class="beginning">
     <header class="white-text-container section-container">
       <div class="text-center">
+        <br><br>
         <h2>Namaste</h2>
         <h1>I am Shubhrima Jana</h1>
       </div>
@@ -75,7 +77,7 @@
       <div class="row">
         <div class="column col-xs-12">
 
-          <div class="card" style="border: none;">
+          <div class="card introduction" id="about" style="border: none;">
             <div class="card-block">
               <div class="row">
                 <div class="column col-md-4">
@@ -100,16 +102,15 @@
             </div>
 
 
-          <div class="card block">
+          <div class="card block" id='projects'>
             <div class="card-block">
-              <h2 id='projects'>PROJECTS</h2>
+              <h2 >PROJECTS</h2>
               <div class="row">
-
                 <div class='projects'>
                   <div class="tab">
-                    <button class="tablinks project_name" onclick="openCity(event, 'web')" id="defaultOpen">Web Development</button>
-                    <button class="tablinks project_name" onclick="openCity(event, 'app')">App Development</button>
-                    <button class="tablinks project_name last-item" onclick="openCity(event, 'python')">Python Development</button>
+                    <button class="tablinks project_name" onclick="openProject(event, 'web')" id="defaultOpen">Web Development</button>
+                    <button class="tablinks project_name" onclick="openProject(event, 'app')">App Development</button>
+                    <button class="tablinks project_name last-item" onclick="openProject(event, 'python')">Python Development</button>
                   </div>
                   <br>
                   <div id="web" class="tabcontent">
@@ -146,9 +147,7 @@
                               <div class="p-3">
                                 <a href="https://immense-cove-79525.herokuapp.com/" class='project_name' target="_blank" ;><strong>Writerly</strong></a>
                                 <p></p>
-                                <p>A website for a content-writing company, Writerly that has features like sample articles, sign in page,
-                                  payment page, and a join us section for freelance writers
-                                  interested to be a part of the team. It also allows you to
+                                <p>A website for a content-writing company, Writerly. It also allows you to
                                   signup for newsletters.</p>
                                 <p>
                                 <details>
@@ -168,9 +167,29 @@
                             </div>
                           </div>
                         </div>
-                        <!---<div class="col">
-                              <p></p>  
-                        </div>-->
+                        <div class="col  col-md-3">
+                          <div class="card">
+                            <div class="card-body">
+                              <div class="p-3">
+                                <a href="https://github.com/Shubhrima/REST-API" class='project_name' target="_blank" ;><strong>REST-API</strong></a>
+                                <p></p>
+                                <p>A REST API made with node.js that contains a list of books and authors, along with rating.</p>
+                                <p>
+                                <details>
+                                  <summary><strong>Tech Stack: </strong></summary>
+                                  <ul>
+                                    <li>Mongoose</li>
+                                    <li>Node.js</li>
+                                    <li>Express</li>
+                                    <li>Ejs</li>
+                                    <li>Postman</li>
+                                  </ul>
+                                </details>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -274,9 +293,9 @@
           </div>
         </div>
 
-        <div class="card block">
+        <div class="card block" id="education_class">
           <div class="card-block">
-            <h2 id="education_class">EDUCATION</h2>
+            <h2 >EDUCATION</h2>
             <div class="row">
               <div class="column col-md-4">
                 <div class="college">
@@ -319,15 +338,13 @@
                   <div class='para_about'>Scored 91.7% in WBBSE board.</div>
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
 
-        <div class="card block">
+        <div class="card block" id="experience">
           <div class="card-block">
-            <h2 id="#experience">EXPERIENCE</h2>
+            <h2 >EXPERIENCE</h2>
             <div class="work-experience">
               <div class="date">March 2021 - May 2021</div>
               <h3 class="h5 work_title">Open Source Contributor - <a href="https://gssoc.girlscript.tech/" class="company" title=" ">GirlScript Summer of Code</a></h3>
@@ -421,6 +438,7 @@
     </ul>
 
   </footer>
+  <script type="text/javascript" src="jquery-3.5.1.min.js"> </script>
   <script>
     document.getElementById("defaultOpen").click();
   </script>
