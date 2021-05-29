@@ -42,7 +42,7 @@ body {
 }
 @media (min-width: 992px) {
   .card .card-block {
-    padding: 6rem;
+    padding: 4rem;
   }
 }
 
@@ -323,6 +323,33 @@ p {
 .work-experience:last-of-type {
   margin-bottom: 0;
 }
+/*profiles*/
+.profile .profile-item{
+    
+    flex: 0 0 25%;
+    max-width:25%;
+    margin-bottom:30px;
+    display: flex;
+
+}
+.profile .profile-item-inner{
+    box-shadow: 5px 5px 10px 5px rgba(48,46,77,0.15);
+    background-color: transparent;
+    background-color: #fdf9ff;
+    padding: 30px 15px;
+    text-align: center;
+    
+}
+.profile .profile-item-inner:hover{
+    font-weight: bold;
+
+}
+
+.profile .profile-item-inner:hover .fas{
+    color: black;
+    font-weight: 700;
+    font-size: 150%;
+}
 
 /*contact*/
 
@@ -381,14 +408,23 @@ li .fab{
 }
 
 
+
+
 .block{
-  opacity:0;
+  opacity:1;
   border: none;
   box-shadow: 1px 1px 8px 0 rgb(0 0 0 / 39%);
 }
+
 .introduction{
   border: none;
-  box-shadow: 1px 1px 8px 0 rgb(0 0 0 / 39%);
+  box-shadow: 1px 1px 8px 0 rgb(0 0 0 / 39%);  
+  animation: moveblock 5s;
+}
+
+@keyframes moveblock {
+  0%   {opacity: 0}
+  100% {opacity: 1}
 }
 .big-letter{
   font-size: 7em;
