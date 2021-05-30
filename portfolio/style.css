@@ -342,8 +342,54 @@ p {
 }
 .profile .profile-item-inner:hover{
     font-weight: bold;
-
 }
+.medium:hover {
+    background: linear-gradient(83deg, #c2dad8, #c7e2f6);
+    background-size: 400% 400%;
+    animation: medium_color 1s infinite;
+}
+
+@keyframes medium_color {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.leetcode:hover {
+    background: linear-gradient(31deg, #ebefd8, #e9acf5);
+    background-size: 400% 400%;
+    animation: leetcode_color 1s infinite;
+}
+
+@keyframes leetcode_color {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.codechef:hover {
+    background: linear-gradient(31deg, #e0cfd0, #b98671);
+    background-size: 400% 400%;
+    animation: codechef_color 1s infinite;
+}
+
+@keyframes codechef_color {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.behance:hover {
+    background: linear-gradient(31deg, #c8eeef, #a9e993);
+    background-size: 400% 400%;
+    animation: behance_color 1s infinite;
+}
+
+@keyframes behance_color {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 
 .profile .profile-item-inner:hover .fas{
     color: black;
@@ -411,7 +457,6 @@ li .fab{
 
 
 .block{
-  opacity:1;
   border: none;
   box-shadow: 1px 1px 8px 0 rgb(0 0 0 / 39%);
 }
@@ -419,7 +464,7 @@ li .fab{
 .introduction{
   border: none;
   box-shadow: 1px 1px 8px 0 rgb(0 0 0 / 39%);  
-  animation: moveblock 5s;
+  animation: moveblock 2s;
 }
 
 @keyframes moveblock {
