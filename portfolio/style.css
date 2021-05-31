@@ -336,7 +336,7 @@ p {
     box-shadow: 5px 5px 10px 5px rgba(48,46,77,0.15);
     background-color: transparent;
     background-color: #fdf9ff;
-    padding: 30px 15px;
+    padding: 30px 10px;
     text-align: center;
     
 }
@@ -385,6 +385,18 @@ p {
 }
 
 @keyframes behance_color {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.qwiklabs:hover {
+    background: linear-gradient(31deg, #caf7e3,#ffc288);
+    background-size: 400% 400%;
+    animation: behance_color 1s infinite;
+}
+
+@keyframes qwiklabs_color {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
