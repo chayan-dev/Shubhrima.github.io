@@ -8,7 +8,84 @@ body {
  margin: 0;
 }
 
+/*loader*/
+.preloader{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 150;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align:center ;
+    align-items: center;
+    -ms-flex-pack:center ;
+    -webkit-transition: all 10s ease;
+    transition: all 10s ease;
+    justify-content: center;
 
+}
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: blue;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+.preloader.opacity-0{
+    opacity: 0.7;
+}
 
 
 /*cards and background*/
@@ -477,7 +554,7 @@ li .fab{
 .introduction{
   border: none;
   box-shadow: 1px 1px 8px 0 rgb(0 0 0 / 39%);  
-  animation: moveblock 2s;
+  animation: moveblock 4s;
 }
 
 @keyframes moveblock {
@@ -493,8 +570,8 @@ li .fab{
 
 
 .slide-in-left {
-  -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-in-left 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-left 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes slide-in-left {
